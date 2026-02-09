@@ -2,3 +2,4 @@ venv/
 token.yaml
 config.yaml
 consumindo.py
+__pycache__/
