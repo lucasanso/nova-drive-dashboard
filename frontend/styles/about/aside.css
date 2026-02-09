@@ -1,0 +1,51 @@
+aside {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    flex-grow: 1;
+    gap: 50px;
+}
+
+aside #h1-aside {
+    margin-top: 35px;
+    font-weight: bold;
+    color: #333333;
+    font-size: 25px;
+}
+aside > * {
+    margin-left: 10px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+aside a {
+    align-self: flex-start;
+    margin-left: 20px;
+}
+#linkedin-image {
+    padding-right: 0px;
+}
+
+aside > div {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    align-self: center;
+    padding: 10px;
+    text-align: left;
+}
+
+div > a:visited {
+    color: black;
+}
+
+div > a:link {
+    text-decoration: none;
+}
+
+div > a:hover {
+    color: rgb(68, 68, 68);
+}

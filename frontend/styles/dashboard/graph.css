@@ -1,0 +1,18 @@
+/* o > serve "para cada um dos filhos faça isso"*/
+.graphics {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.graphics > div {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+}

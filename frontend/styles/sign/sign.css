@@ -1,0 +1,77 @@
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 40px;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-data {
+    display: flex;
+    flex-direction: row;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 80px;
+}
+
+.create-login {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 400px;
+
+}
+
+input {
+    margin-bottom: 10px;
+    padding-left: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+
+#submeter {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+    background-color: rgb(245, 245, 245);
+}
+
+main {
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.forms-sign {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    font-size: 20px;
+}
+
+
+.submit-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+}

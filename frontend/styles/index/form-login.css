@@ -1,0 +1,41 @@
+#index-login {
+    padding: 100px;
+    font-size: 25px;
+
+}
+
+#index-login input {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    text-decoration: none;
+    width: 300px;
+    height: 30px;
+    padding-left: 2px;
+    font-size: 16px;
+}
+
+#index-login a:link {
+    color: black;
+}
+
+#index-login a:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+#index-login a:visited{
+    color: black;
+}
+
+#index-login a:active {
+    background-color: rgb(168, 168, 168);
+}
+
+#sign {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+}
+
+#index-login img {
+    padding-right: 5px;
+    padding-top: 10px;
+}

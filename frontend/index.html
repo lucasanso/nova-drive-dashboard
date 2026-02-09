@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Drive Motors</title>
+    <link rel="stylesheet" type="text/css" href="styles/layout.css">
+    <link rel="stylesheet" type="text/css" href="styles/form.css">
+    <link rel="stylesheet" type="text/css" href="styles/index/barra-lateral.css">
+    <link rel="stylesheet" type="text/css" href="styles/index/form-login.css">
+ </head>
+<body>
+    <header>
+        <div class="menu-superior">
+            <span id="logo"><img src="../frontend/images/png-transparent-automobile-cars-magnifying-glass-search-searchicons-vehicle-searchicons-icon-removebg-preview.png" height="40px" width="42px"></span>
+            <ul class="links">
+                <li><a href="about.html"><img src="../frontend/images/help-252.png" height="32px"></a></li>
+            </ul> 
+        </div>
+    </header>
+
+    <div class="conteudo-principal">
+        <aside class="barra-lateral-esquerda">
+            <div id="database-logo">
+                <span><img src="../frontend/images/png-clipart-database-computer-icons-symbol-symbol-miscellaneous-information-technology-removebg-preview.png" height="120px"></span>
+            </div>
+        </aside>
+
+        <main>
+            <form id="index-login">
+                <span><img src="../frontend/images/Sample_User_Icon.png" height="30px">Login</span><br>
+                <input type="text" name="login" required oninvalid="this.setCustomValidity('Preencha este campo')" oninput="this.setCustomValidity('')" placeholder="Digite seu login"><br><br>
+                <span><img src="../frontend/images/102643.png" height="30px">Senha</span><br>
+                <input type="password" name="senha" required oninvalid="this.setCustomValidity('Preencha este campo')" oninput="this.setCustomValidity('')" placeholder="Digite sua senha"><br><br>
+                <input type="submit" value="Entrar"><br>
+                <a id="sign" href="sign.html">Não sou cadastrado</a>
+                </span>
+            </form>
+        </main>
+    </div>
+    
+    <footer class="footer">
+        <span>Todos os direitos reservados © Lucas Santos Soares</span> 
+    </footer>
+    <script src="../frontend/scripts/login.js"></script>
+</body>
+</html>
